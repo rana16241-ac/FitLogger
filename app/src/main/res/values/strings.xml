@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitLogger</string>
+    
+    <!-- Activity Titles -->
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_add_activity">Add Activity</string>
+    <string name="title_settings">Settings</string>
+    
+    <!-- Button Labels -->
+    <string name="btn_save_activity">Save Activity</string>
+    <string name="btn_clear_all_data">Clear All Data</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    
+    <!-- Input Hints -->
+    <string name="hint_activity_name">Activity Name</string>
+    <string name="hint_duration">Duration (minutes)</string>
+    <string name="hint_select_date">Select Date</string>
+    
+    <!-- Messages -->
+    <string name="msg_activity_saved">Activity saved successfully!</string>
+    <string name="msg_activity_deleted">Activity deleted successfully</string>
+    <string name="msg_failed_to_save">Failed to save activity. Please try again.</string>
+    <string name="msg_failed_to_delete">Failed to delete activity</string>
+    <string name="msg_no_activities">No activities yet. Click + to add your first activity!</string>
+    <string name="msg_list_refreshed">List refreshed</string>
+    
+    <!-- Validation Messages -->
+    <string name="error_activity_name_required">Activity name is required</string>
+    <string name="error_duration_required">Duration is required</string>
+    <string name="error_duration_invalid">Duration must be greater than 0</string>
+    <string name="error_duration_too_long">Duration cannot exceed 24 hours (1440 minutes)</string>
+    <string name="error_invalid_number">Please enter a valid number</string>
+    
+    <!-- Dialog Messages -->
+    <string name="dialog_delete_title">Delete Activity</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this activity?</string>
+    <string name="dialog_clear_data_title">Clear All Data</string>
+    <string name="dialog_clear_data_message">Are you sure you want to delete all activities? This action cannot be undone.</string>
+    <string name="dialog_discard_changes_title">Discard Changes?</string>
+    <string name="dialog_discard_changes_message">You have unsaved changes. Are you sure you want to go back?</string>
+    
+    <!-- Settings -->
+    <string name="settings_statistics">Statistics</string>
+    <string name="settings_preferences">Preferences</string>
+    <string name="settings_data_management">Data Management</string>
+    <string name="settings_about">About</string>
+    <string name="settings_enable_notifications">Enable Notifications</string>
+    <string name="settings_total_activities">Total Activities: %d</string>
+    <string name="settings_total_duration">Total Duration: %d minutes (%d hours)</string>
+    
+    <!-- About -->
+    <string name="about_version">FitLogger v1.0</string>
+    <string name="about_developer">Developed by: RANA MUHAMMAD AWAIS</string>
+    <string name="about_email">Email: rana.16241.ac@iqra.edu.pk</string>
+    <string name="about_description">Personal Fitness Activity Tracker\n\nMobile Application Development Project</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_add_activity">Add Activity</string>
+    <string name="cd_delete_activity">Delete Activity</string>
+    <string name="cd_activity_icon">Activity Icon</string>
+</resources>
